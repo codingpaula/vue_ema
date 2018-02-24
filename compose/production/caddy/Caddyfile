@@ -1,0 +1,8 @@
+vue_ema.herokuapp.com {
+    proxy / django:5000 {
+        transparent
+    }
+    log stdout
+    errors stdout
+    gzip
+}

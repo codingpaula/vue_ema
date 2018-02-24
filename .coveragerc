@@ -1,0 +1,3 @@
+[run]
+include = vue_ema/*
+omit = *migrations*, *tests*
